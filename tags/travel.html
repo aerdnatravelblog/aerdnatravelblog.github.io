@@ -29,10 +29,10 @@
 	    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png"/>-->
 	    <link rel="shortcut icon" href="../favicon.ico" />
 
-		<!-- share this bar -->
-		<script type="text/javascript" xml:space="preserve">var switchTo5x=true;</script>
-		<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js" xml:space="preserve"></script>
-		<script type="text/javascript" src="http://s.sharethis.com/loader.js" xml:space="preserve"></script>
+	    <!-- slick slider -->
+    	<link rel="stylesheet" type="text/css" href="../css/slick.css" />
+    	<link rel="stylesheet" type="text/css" href="../css/slick-theme.css" />
+	
 
 		<!-- google analytics -->
 	    <script xml:space="preserve">
@@ -90,16 +90,16 @@
 			</div>
 		
 			
-				<h3>July 2015</h3>
+				<h3>August 2015</h3>
 		
-				<h4>30 - <a href="../blog/2015/minca.html" shape="rect">Minca</a></h4>
+				<h4>03 - <a href="../blog/2015/santa_marta.html" shape="rect">Santa Marta</a></h4>
 				
 			
 		
 			
 				<h3>July 2015</h3>
 		
-				<h4>28 - <a href="../blog/2015/santa_marta.html" shape="rect">Santa Marta</a></h4>
+				<h4>30 - <a href="../blog/2015/minca.html" shape="rect">Minca</a></h4>
 				
 			
 		
@@ -148,7 +148,32 @@
 		    <script xml:space="preserve" src="../js/jquery-1.11.1.min.js"></script>
 		    <script xml:space="preserve" src="../js/bootstrap.min.js"></script>
 		    <script xml:space="preserve" src="../js/prettify.js"></script>
-    
+    		<!-- share this bar -->
+			
+			<script type="text/javascript" xml:space="preserve">var switchTo5x=true;</script>
+			<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js" xml:space="preserve"></script>
+			<script type="text/javascript" src="http://s.sharethis.com/loader.js" xml:space="preserve"></script>
+			
+			<!-- slick slider -->
+			<script xml:space="preserve" src="../js/slick.min.js"></script>
+
+			<script type="text/javascript" xml:space="preserve">
+				    $(document).ready(function(){
+				      $('.banner').slick({
+					infinite: true,
+					autoplay: true,
+  					autoplaySpeed: 3000,
+				    dots: true,
+				    /*variableWidth: true, */
+				    slidesToShow: 1,
+  					/*centerMode: true,*/
+				    speed: 600,
+				    /*fade: true,
+  					cssEase: 'linear',*/
+				    arrows: true
+				      });
+				    });
+			</script>
     	</div>
     </body>
 </html>
